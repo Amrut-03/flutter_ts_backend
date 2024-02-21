@@ -20,6 +20,7 @@ dotenv.config();
 // Define the Routes 
 app.use("/api/v1",router)
 
+
 // Mongo Connections
 const mongoURI = process.env.MONGO_DB_URI;
 
